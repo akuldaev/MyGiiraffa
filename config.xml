@@ -6,7 +6,7 @@
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Giiraffa</name>
+    <name>Moodle</name>
 
     <description>
         Giiraffa official app
@@ -155,7 +155,7 @@
     <gap:plugin name="cordova-plugin-zip" source="npm" spec="3.1.0" />
     <gap:plugin name="cordova-sqlite-storage" source="git" version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="1.0.1" />
-    <gap:plugin name="phonegap-plugin-push" source="git" version="1.11.1">
+    <gap:plugin name="phonegap-plugin-push" source="git" version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
