@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.giiraffa.mobile"
+        id        = "com.moodle.moodlemobile"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Giiraffa</name>
+    <name>Moodle</name>
 
     <description>
-        Giiraffa official app
+        Moodle official app
     </description>
 
-    <author href="https://giiraffa.ru" email="alexkuldaev@gmail.com">
-        Giiraffa Mobile team
+    <author href="http://moodle.com" email="mobile@moodle.com">
+        Moodle Mobile team
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -48,7 +48,7 @@
     <preference name="webviewbounce"    value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="load-url-timeout" value="60000" />
-    <preference name="AppendUserAgent" value="Giiraffa" />
+    <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     <preference name="android-installLocation" value="auto" />
@@ -61,7 +61,7 @@
     <preference name="SplashScreenDelay" value="15000" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
 	<preference name="siteUrl" value="https://giiraffa.ru"/>
-	
+
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
     </feature>
@@ -160,7 +160,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Giiraffa']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
