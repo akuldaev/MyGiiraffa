@@ -61,7 +61,7 @@
     <preference name="SplashScreenDelay" value="15000" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
 	<preference name="siteUrl" value="https://giiraffa.ru" />
-	<preference name="SiteUrl" value="https://giiraffa.ru" />
+	<preference name="siteurl" value="https://giiraffa.ru" />
 	
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
